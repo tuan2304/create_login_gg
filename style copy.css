@@ -1,0 +1,189 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 48px 0px;
+    background-color: #f0f4f9;
+}
+
+.outline-login {
+    background-color: white;
+    width: 1055px;
+    height: auto;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 314.5px;
+    padding: 108px 36px 36px;
+}
+
+.under-outline-login {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 999px;
+    margin: 32px 0px -6px -16px;
+}
+
+.inline-login {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: auto;
+    height: auto;
+}
+
+.left-inline-login {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.right-inline-login {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: auto;
+    width: 467.5px;
+}
+
+.logo-left-inline-login img {
+    display: flex;
+    justify-content: flex-start;
+    height: 48px;
+    width: auto;
+}
+
+
+.login-text-down-inline-login {
+    width: 50%;
+    height: 50%;
+}
+
+.login-text-left-inline-login {
+    width: 460px;
+    height: 116px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-text-left-inline-login h1 {
+    height: auto;
+    width: auto;
+    margin: 24px 0px 0px;
+    display: block;
+    font-family: "Google Sans", roboto, "Noto Sans Myanmar UI", arial, sans-serif;
+}
+
+.login-description-left-inline-login {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Google Sans", roboto, "Noto Sans Myanmar UI", arial, sans-serif;
+    height: 24px;
+    width: 460px;
+    margin: 16px 0px 0px;
+}
+
+.login-text-down-inline-login span {
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+}
+
+.write-right-inline-login input {
+    background-color: transparent;
+    display: block;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Google Sans", roboto, "Noto Sans Myanmar UI", arial, sans-serif;
+    width: 500px;
+    height: 28px;
+    border-radius: 4%;
+    padding: 13px 15px;
+    margin: 1px 1px 0px;
+}
+
+.textbox-right-inline-login {
+    width: 460px;
+    height: 64px;
+    padding: 8px 0px 0px;
+}
+
+.miss-password-right-inline-login {
+    width: 460px;
+    height: 32px;
+    padding: 9px 0px 3px;
+}
+
+.miss-password-right-inline-login button {
+    background-color: transparent;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Google Sans", roboto, "Noto Sans Myanmar UI", arial, sans-serif;
+    color: #0b57b0;
+    background-color: transparent;
+    width: auto;
+    height: 32px;
+    border-radius: 4%;
+    border: none;
+    padding: 13px 15px 13px 0px;
+    margin: 1px 1px 0px;
+    text-align: left;
+}
+
+.smalltext-right-inline-login {
+    width: auto;
+    height: auto;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Google Sans", roboto, "Noto Sans Myanmar UI", arial, sans-serif;
+    color: #444746;
+    padding: 9px 0px 3px;
+}
+
+.boxunder-outline-login {
+    width: 999px;
+    height: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.create-account button {
+    height: 48px;
+    width: 110px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Google Sans", roboto, "Noto Sans Myanmar UI", arial, sans-serif;
+    color: #0b57b0;
+    border-radius: 20px;
+    border: none;
+}
+
+.press-next button {
+    height: 48px;
+    width: 110px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Google Sans", roboto, "Noto Sans Myanmar UI", arial, sans-serif;
+    color: white;
+    background-color: #0b57b0;
+    border-radius: 20px;
+    border: none;
+    margin: 0px 0px 0px 20px;
+}
