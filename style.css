@@ -1,0 +1,55 @@
+body{padding: 0;
+margin: 0;}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    width: 100vw;
+    height: 100vh;
+}
+
+.outline-login{
+    background-color: white ;
+    width: 70%;
+    height: 45%;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.left-outline-login{
+    width: 45%;
+    height: 100%;
+    background-color: red;
+}
+
+.right-outline-login{
+    width: 45%;
+    height: 100%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+}
+
+.left-outline-login h1{
+    font-family: "Roboto", sans-serif;
+}
+
+.left-outline-login p{
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+}
+
+.write-right-outline-login input{
+    background-color:  yellow;
+    width: 100%px;
+    height: 50px;
+    border-radius: 4%;
+}
