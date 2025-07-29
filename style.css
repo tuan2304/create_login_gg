@@ -22,7 +22,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0px 314.5px;
-    padding: 108px 36px 36px;
+    padding: 50px 36px 36px;
 }
 
 .under-outline-login {
@@ -38,7 +38,7 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: space-between;
     width: auto;
     height: auto;
 }
@@ -53,10 +53,19 @@ body {
 
 .right-inline-login {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     height: auto;
     width: 467.5px;
+}
+
+.top-right-inline-login {
+    height: 48px;
+    width: 460px;
+}
+
+.bottom-right-inline-login {
+    margin: 24px 0px 0px 0px;
 }
 
 .logo-left-inline-login img {
@@ -109,7 +118,7 @@ body {
     font-size: 17px;
     font-weight: 400;
     font-family: "Google Sans", roboto, "Noto Sans Myanmar UI", arial, sans-serif;
-    width: 500px;
+    width: 420px;
     height: 28px;
     border-radius: 4%;
     padding: 13px 15px;
@@ -117,14 +126,15 @@ body {
 }
 
 .textbox-right-inline-login {
-    width: 460px;
-    height: 64px;
+    width: 465px;
+    height: auto;
     padding: 8px 0px 0px;
 }
 
 .miss-password-right-inline-login {
-    width: 460px;
-    height: 32px;
+    display: block;
+    width: auto;
+    height: auto;
     padding: 9px 0px 3px;
 }
 
@@ -140,9 +150,8 @@ body {
     height: 32px;
     border-radius: 4%;
     border: none;
-    padding: 13px 15px 13px 0px;
-    margin: 1px 1px 0px;
     text-align: left;
+    padding: 1px 0px;
 }
 
 .smalltext-right-inline-login {
@@ -157,7 +166,7 @@ body {
 }
 
 .boxunder-outline-login {
-    width: 999px;
+    width: 1055px;
     height: auto;
     display: flex;
     flex-direction: row-reverse;
@@ -186,4 +195,47 @@ body {
     border-radius: 20px;
     border: none;
     margin: 0px 0px 0px 20px;
+}
+
+.under-outline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1127px;
+    height: auto;
+    margin: 0px 314.5px;
+}
+
+.left-under-outline {
+    height: 48px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tiengviet-left-under-outline {
+    padding: 0px 0px 0px 16px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Google Sans", roboto, "Noto Sans Myanmar UI", arial, sans-serif;
+    color: #1f1f1f;
+
+}
+
+.right-under-outline {
+    height: 48px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.right-under-outline a {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Google Sans", roboto, "Noto Sans Myanmar UI", arial, sans-serif;
+    color: #1f1f1f;
 }
